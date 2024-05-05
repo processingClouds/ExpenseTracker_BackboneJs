@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+}
+body {
+    /* display: flex; */
+    align-items: center;
+    width: 500px;
+}
+
+h1{
+    /* display: flex; */
+    width: 500px;
+    justify-content: center;
+    margin: 3% auto;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 500px;    
+}
+
+.row{
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    justify-content: left;
+    align-items: center;
+    height: 80px;
+}
+.fullWidth{
+    width: 500px;    
+}
+.halfWidth{
+    width: 250px;
+}
+
+.form-actions{
+    width: 500px;
+    text-align: right;
+    height: 100px;
+}
+input{
+    padding:10px;
+    box-shadow: 0,0, 15px, 4px;
+    border-radius: 20px;
+    font-family: monospace;
+}
+input[name=description]{
+    width: 95%;
+}
+input[name=amount], input[name=date]{
+    width:90%;
+}
+button, .actions{
+    font-size: large;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.actions{
+    text-align: right;
+}
+button[type=submit]{
+    background-color: aqua;
+    
+}
+button:hover{
+    font-size: x-large;
+}
+button:active{
+    font-size: medium;
+    color: red;
+}
+button[type=reset]{
+    background-color: gray;
+
+}
+.expense{
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    border: 1px solid black;
+    margin:10px;
+    width:500px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+h2{
+    width:250px;
+}
+.field{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#error{
+    
+    background-color: red;
+    color:white;
+}
